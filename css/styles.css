@@ -1,0 +1,702 @@
+.nv {
+    background-color: #f15a24;
+    width: 48%;
+    padding: 5px;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 5px;
+    margin: 5px;
+    margin-right: 11.5%;
+}
+
+.nvs {
+    background-color: #f15a24;
+}
+
+.za {
+    color: #f15a24;
+    display: inline;
+}
+
+.nvsI:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+.logo {
+    width: 10%;
+    display: inline-block;
+    background-color: #FFF;
+    padding: 5px 5px;
+    margin-top: 2%;
+    margin: 5px;
+    margin-left: 11.5%;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ima {
+    width: 76.5%;
+    height: auto;
+    margin-left: 12%;
+}
+
+.ims {
+    height: 450px;
+    border-radius: 5px;
+}
+
+.cst {
+    margin-bottom: 15%;
+    background-color: #f15a24;
+    color: #FFF;
+}
+
+.cst:hover {
+    margin-bottom: 15%;
+    background-color: transparent;
+    border: 2px #f15a24;
+    border-style: solid;
+    color: #000000;
+}
+
+.separa {
+    margin-top: 5%;
+    width: 76.5%;
+    margin-left: 12%;
+}
+
+.tt {
+    color: #f15a24;
+}
+
+.ne {
+    font-weight: bold;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.contenedor-cartas {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10px;
+    display: flex;
+    width: auto;
+    height: auto;
+    margin-top: 3%;
+    /* border-style: solid; */
+}
+
+.carta {
+    width: 33.3333%;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 0.5%;
+    margin-left: 0.3%;
+
+}
+
+.card-title {
+    color: #f15a24;
+}
+
+.imgcards {
+    margin-top: 92%;
+    width: 98%;
+    height: 40px;
+    text-align: center;
+    margin-left: 1%;
+    background-color: rgba(252, 101, 0, 0.6);
+    border-style: none;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: x-large;
+}
+
+.btnbtn1 {
+    width: 33.3333%;
+    height: 450px;
+    background-image: url("../img/disenios.png");
+    background-repeat: no-repeat;
+    background-size: 100% 450px;
+    margin-left: 0.3%;
+    border-radius: 5px;
+}
+
+.btnbtn2 {
+    width: 33.3333%;
+    height: 450px;
+    background-image: url("../img/silla_madera.png");
+    background-repeat: no-repeat;
+    background-size: 100% 450px;
+    margin-left: 0.3%;
+    border-radius: 5px;
+}
+
+.btnbtn3 {
+    width: 33.3333%;
+    height: 450px;
+    background-image: url("../img/cama.png");
+    background-repeat: no-repeat;
+    background-size: 100% 450px;
+    margin-left: 0.3%;
+    border-radius: 5px;
+}
+
+.pp {
+    text-align: left;
+    font-size: x-large;
+    font-weight: bold;
+    color: #FFF;
+    display: inline-block;
+    margin-right: 20%;
+}
+
+.slide-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frases {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.3%;
+    width: 990px;
+    height: 130px;
+    border-radius: 5px;
+    overflow: hidden;
+    background-image: url("../img/frases.png");
+    /* background-repeat: no-repeat; */
+}
+
+.fra,
+.frase {
+    list-style: none;
+}
+
+.fra {
+    width: 550px;
+    height: 140px;
+    position: relative;
+    animation: slide 5s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite;
+}
+
+.frase {
+    position: absolute;
+    height: 140px;
+    top: 200%;
+    line-height: 140px;
+    font-size: 18px;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.frase:first-child {
+    top: 100%;
+}
+
+.frase:last-child {
+    top: 300%;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateY(0);
+    }
+
+    15%,
+    30% {
+        transform: translateY(-100%);
+    }
+
+    45%,
+    60% {
+        transform: translateY(-200%);
+    }
+
+    75%,
+    90% {
+        transform: translateY(-300%);
+    }
+
+    100% {
+        transform: translateY(-400%);
+    }
+}
+
+.footer {
+    margin-top: 3%;
+    margin-left: 12%;
+    padding: 1%;
+    width: 76.5%;
+    margin-bottom: 2%;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.footertitle {
+    color: #FFF;
+}
+
+.foots {
+    color: #ffffff;
+    font-style: normal;
+    text-decoration: none;
+    font-size: small;
+}
+
+.todofoot {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tablas {
+    width: 30%;
+    /* margin-left: -40%; */
+}
+
+.redessociales {
+    width: 30px;
+    height: auto;
+    /* margin-left: -95%; */
+}
+
+.redsocial {
+    color: #f15a24;
+    display: inline-block;
+}
+
+/* fin index */
+
+/* proyecto */
+
+.proyectos {
+    width: 76.5%;
+    margin-left: 12%;
+    text-decoration: none;
+}
+
+.imgpro {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.clientes {
+    width: 76.5%;
+    height: 38.25%;
+    margin-left: 12%;
+    border: none;
+}
+
+.Diseño {
+    background-image: url("../img/servicios/disenio.jpg");
+    background-repeat: no-repeat;
+    width: 76.5%;
+    height: 600px;
+    border-radius: 5px;
+    margin-left: 12%;
+}
+
+.Rendering {
+    background-image: url("../img/servicios/rendering.jpg");
+    background-repeat: no-repeat;
+    width: 76.5%;
+    height: 600px;
+    border-radius: 5px;
+    margin-left: 12%;
+}
+
+.Produccion {
+    background-image: url("../img/servicios/prod.jpg");
+    background-repeat: no-repeat;
+    width: 76.5%;
+    height: 600px;
+    border-radius: 5px;
+    margin-left: 12%;
+}
+
+.Laser {
+    background-image: url("../img/servicios/laser.jpg");
+    background-repeat: no-repeat;
+    width: 76.5%;
+    height: 600px;
+    border-radius: 5px;
+    margin-left: 12%;
+}
+
+.d1 {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 40%;
+    height: 600px;
+    margin-top: -9px;
+    margin-left: 50%;
+    text-align: justify;
+    padding: 5%;
+    font-size: 14px;
+}
+
+.d1 h2 {
+    color: #f15a24;
+}
+
+.r1 {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 40%;
+    height: 600px;
+    margin-top: -9px;
+    margin-left: 5%;
+    text-align: justify;
+    padding: 5%;
+    font-size: 14px;
+}
+
+.r1 h2 {
+    color: #f15a24;
+}
+
+.p1 {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 40%;
+    height: 600px;
+    margin-top: -9px;
+    margin-left: 50%;
+    text-align: justify;
+    padding: 5%;
+    font-size: 14px;
+}
+
+.p1 h2 {
+    color: #f15a24;
+}
+
+.l1 {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 40%;
+    height: 600px;
+    margin-top: -9px;
+    margin-left: 5%;
+    text-align: justify;
+    padding: 5%;
+    font-size: 14px;
+}
+
+.l1 h2 {
+    color: #f15a24;
+}
+
+.c1 {
+    position: absolute;
+    z-index: 0;
+}
+
+.l {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 40%;
+    height: 589px;
+    margin-top: -9px;
+    margin-left: 5%;
+    text-align: justify;
+    padding: 5%;
+    font-size: 10px;
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+}
+
+.l h2 {
+    color: #f15a24;
+}
+
+.cat {
+    background-color: rgba(241, 90, 36, 0.7);
+    width: 76.5%;
+    height: 60px;
+    border-radius: 5px;
+    margin-left: 12%;
+    margin-top: 1%;
+    text-align: center;
+    color: #FFF;
+
+}
+
+.catalogos {
+    position: relative;
+    width: 76.5%;
+    height: 500px;
+    background-color: aqua;
+    margin-left: 12%;
+    margin-top: 1%;
+}
+
+/* carta 1 */
+
+.cata {
+    position: absolute;
+    width: 25.5%;
+    height: 70%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+.cata:hover {
+    transform: rotateY(180deg);
+}
+
+.front {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-image: url("../img/Cat_Sillas.png");
+    background-repeat: no-repeat;
+    color: #FFF;
+    border-radius: 5px;
+}
+
+.back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    color: #FFF;
+    transform: rotateY(180deg);
+    background-color: #f15a24;
+    border-radius: 5px;
+}
+
+
+/* Tecnologia */
+
+.inst {
+    width: 76.5%;
+    margin-left: 12%;
+    margin-top: 37%;
+    text-align: center;
+    color: #f15a24;
+    border: #FFF;
+}
+
+.inst2 {
+    width: 76.5%;
+    margin-left: 12%;
+    margin-top: 2%;
+    text-align: center;
+    color: #f15a24;
+    border: #FFF;
+}
+
+.matTon {
+    width: 76.5%;
+    margin-left: 12%;
+    position: relative;
+    border: #FFF;
+    margin-top: 3%;
+}
+
+.matTon,
+.maderas,
+.tonos {
+    display: inline-block;
+
+}
+
+.maderas {
+    /* background-color: aquamarine; */
+    width: 49.7%;
+    text-align: center;
+    color: #f15a24;
+    position: relative;
+}
+
+.tonos {
+    /* background-color: brown; */
+    width: 49.7%;
+    text-align: center;
+    color: #f15a24;
+    position: absolute;
+}
+
+.mad {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    margin: 0.2%;
+    margin-top: 2%;
+    margin-left: 1%;
+    border-radius: 5px;
+}
+
+.mad:hover {
+    /* transition: all; */
+    cursor: pointer;
+    box-shadow: 1px 1px 12px 1px #f15a24;
+}
+
+.ton1 {
+    background-image: url("../img/tecnolgia/avellana.jpg");
+    width: 200px;
+    height: 200px;
+    margin: 0.2%;
+    margin-top: 2%;
+    margin-left: 1%;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.ton2 {
+    background-image: url("../img/tecnolgia/tzalamtinta2.jpg");
+    width: 200px;
+    height: 200px;
+    margin: 0.2%;
+    margin-top: 2%;
+    margin-left: 1%;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.ton3 {
+    background-image: url("../img/tecnolgia/wengue.jpg");
+    width: 200px;
+    height: 200px;
+    margin: 0.2%;
+    margin-top: 2%;
+    margin-left: 1%;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.ton4 {
+    background-image: url("../img/tecnolgia/chocolate.jpg");
+    width: 200px;
+    height: 200px;
+    margin: 0.2%;
+    margin-top: 2%;
+    margin-left: 1%;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.ton1:hover,
+.ton2:hover,
+.ton3:hover,
+.ton4:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 12px 1px #f15a24;
+}
+
+.n {
+    padding: 45% 0;
+    color: #FFF;
+}
+
+.fets {
+    width: 76.5%;
+    margin-left: 12%;
+    /* position: relative; */
+    border: #FFF;
+    text-align: justify;
+    margin-top: 2%;
+}
+
+/* Nosotros */
+
+.nosotros {
+    background-image: url("../img/nosotros/nosotros.jpg");
+    background-repeat: no-repeat;
+    width: 76.5%;
+    height: 700px;
+    border-radius: 5px;
+    margin-left: 12%;
+
+}
+
+.n1 {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 45%;
+    height: 900px;
+    margin-top: -9px;
+    margin-left: 50%;
+    text-align: justify;
+    padding: 3.5%;
+    font-size: 11px;
+}
+
+/* Contacto */
+
+.comunicate {
+    background-image: url("../img/contacto/comunicate.jpg");
+    background-repeat: no-repeat;
+    width: 76.5%;
+    height: 500px;
+    border-radius: 5px;
+    margin-left: 12%;
+}
+
+.c1 {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 100%;
+    height: 500px;
+    margin-top: -9px;
+    text-align: justify;
+    padding: 3.5%;
+    font-size: 11px;
+    position: relative;
+}
+
+.c1 h2 {
+    color: #f15a24;
+}
+
+.c1,
+.c2,
+.c3 {
+    display: inline-block;
+}
+
+.c2 {
+    width: 49.8%;
+    position: relative;
+    font-size: 20px;
+    padding: 2%;
+
+}
+
+.c3 {
+    width: 49.8%;
+    font-size: 20px;
+    position: absolute;
+    padding: 2%;
+}
+
+.butt {
+    color: #FFF;
+    background-color: #f15a24;
+    border-color: #f15a24;
+}
+
+.butt:hover {
+    margin-bottom: 15%;
+    background-color: #FFF;
+    border: 2px #f15a24;
+    border-style: solid;
+    color: #f15a24;
+}
