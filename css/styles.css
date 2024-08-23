@@ -1,3 +1,8 @@
+*{
+    font-family: 'Raleway', 'Delicius Mondy';
+}
+
+
 .nv {
     background-color: #f15a24;
     width: 48%;
@@ -80,18 +85,18 @@
 }
 
 .contenedor-cartas {
-    margin-left: 10%;
+    margin-left: 11%;
     margin-right: 10%;
     padding: 10px;
     display: flex;
-    width: auto;
+    width: 78.5%;
     height: auto;
     margin-top: 3%;
     /* border-style: solid; */
 }
 
 .carta {
-    width: 33.3333%;
+    width: 33.33%;
     height: auto;
     display: inline-block;
     vertical-align: top;
@@ -166,8 +171,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 0.3%;
-    width: 990px;
+    margin-left: 0.6%;
+    width: 76.9%;
     height: 130px;
     border-radius: 5px;
     overflow: hidden;
@@ -312,6 +317,7 @@ th {
     height: 600px;
     border-radius: 5px;
     margin-left: 12%;
+    margin-top: -0.01%;
 }
 
 .Rendering {
@@ -343,10 +349,10 @@ th {
 
 .d1 {
     background-color: rgba(255, 255, 255, 0.5);
-    width: 40%;
+    width: 76.5%;
     height: 600px;
     margin-top: -9px;
-    margin-left: 50%;
+    margin-left: 12%;
     text-align: justify;
     padding: 5%;
     font-size: 14px;
@@ -424,72 +430,12 @@ th {
     color: #f15a24;
 }
 
-.cat {
-    background-color: rgba(241, 90, 36, 0.7);
-    width: 76.5%;
-    height: 60px;
-    border-radius: 5px;
-    margin-left: 12%;
-    margin-top: 1%;
-    text-align: center;
-    color: #FFF;
-
-}
-
-.catalogos {
-    position: relative;
-    width: 76.5%;
-    height: 500px;
-    background-color: aqua;
-    margin-left: 12%;
-    margin-top: 1%;
-}
-
-/* carta 1 */
-
-.cata {
-    position: absolute;
-    width: 25.5%;
-    height: 70%;
-    transform-style: preserve-3d;
-    transition: all 0.5s ease;
-    margin-top: 1%;
-    margin-left: 1%;
-}
-
-.cata:hover {
-    transform: rotateY(180deg);
-}
-
-.front {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-    background-image: url("../img/Cat_Sillas.png");
-    background-repeat: no-repeat;
-    color: #FFF;
-    border-radius: 5px;
-}
-
-.back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-    color: #FFF;
-    transform: rotateY(180deg);
-    background-color: #f15a24;
-    border-radius: 5px;
-}
-
-
 /* Tecnologia */
 
 .inst {
     width: 76.5%;
     margin-left: 12%;
-    margin-top: 37%;
+    margin-top: 2%;
     text-align: center;
     color: #f15a24;
     border: #FFF;
@@ -535,7 +481,22 @@ th {
     position: absolute;
 }
 
-.mad {
+.mad1:hover,
+.mad2:hover,
+.mad3:hover,
+.mad4:hover,
+.mad5:hover,
+.mad6:hover,
+.mad7:hover,
+.mad8:hover,
+.mad9:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 12px 1px #f15a24;
+}
+
+/* Maderas */
+
+.mad1 {
     width: 150px;
     height: 150px;
     display: inline-block;
@@ -543,14 +504,101 @@ th {
     margin-top: 2%;
     margin-left: 1%;
     border-radius: 5px;
+    background-image: url("../img/tecnolgia/poplar\ 1.jpg");
 }
 
-.mad:hover {
-    /* transition: all; */
-    cursor: pointer;
-    box-shadow: 1px 1px 12px 1px #f15a24;
+.mad2 {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    margin: 0.2%;
+    margin-top: 2%;
+    margin-left: 1%;
+    border-radius: 5px;
+    background-image: url("../img/tecnolgia/caoba\ australiana.jpg");
 }
 
+.mad3 {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    margin: 0.2%;
+    margin-top: 2%;
+    margin-left: 1%;
+    border-radius: 5px;
+    background-image: url("../img/tecnolgia/cerezo.jpg");
+}
+
+.mad4 {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    margin: 0.2%;
+    margin-top: 2%;
+    margin-left: 1%;
+    border-radius: 5px;
+    background-image: url("../img/tecnolgia/encino\ blanco.jpg");
+}
+
+.mad5 {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    margin: 0.2%;
+    margin-top: 2%;
+    margin-left: 1%;
+    border-radius: 5px;
+    background-image: url("../img/tecnolgia/encino\ rojo.jpg");
+}
+
+.mad6 {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    margin: 0.2%;
+    margin-top: 2%;
+    margin-left: 1%;
+    border-radius: 5px;
+    background-image: url("../img/tecnolgia/haya.jpg");
+}
+
+.mad7 {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    margin: 0.2%;
+    margin-top: 2%;
+    margin-left: 1%;
+    border-radius: 5px;
+    background-image: url("../img/tecnolgia/maple.jpg");
+
+}
+
+.mad8 {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    margin: 0.2%;
+    margin-top: 2%;
+    margin-left: 1%;
+    border-radius: 5px;
+    background-image: url("../img/tecnolgia/nogalb.jpg");
+}
+
+.mad9 {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    margin: 0.2%;
+    margin-top: 2%;
+    margin-left: 1%;
+    border-radius: 5px;
+    background-image: url("../img/tecnolgia/nogalb.jpg");
+}
+
+
+
+/* Tonos */
 .ton1 {
     background-image: url("../img/tecnolgia/avellana.jpg");
     width: 200px;
@@ -700,3 +748,1010 @@ th {
     border-style: solid;
     color: #f15a24;
 }
+
+/* Catalogos */
+
+.cat {
+    background-color: rgba(241, 90, 36, 0.7);
+    width: 76.5%;
+    height: 60px;
+    border-radius: 5px;
+    margin-left: 12%;
+    margin-top: 1%;
+    text-align: center;
+    color: #FFF;
+}
+
+.catalogos {
+    position: flex;
+    width: 76.5%;
+    height: 800px;
+    /* background-color: aqua; */
+    margin-left: 12%;
+    margin-top: 3%;
+}
+
+.card2 {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    border-radius: 5px;
+}
+
+.card2 .face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.card2 .front {
+    transform: perspective(600px) rotateY(0deg);
+}
+
+.card2 .front img {
+    height: 400px;
+}
+
+
+.card2 .back {
+    transform: perspective(600px) rotateY(180deg);
+    background-color: rgba(241, 90, 36, 0.7);
+    padding: 10%;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    box-shadow: 0 5px 10px #fc6b02;
+}
+
+.card2 .back a {
+    text-decoration: none;
+    color: #FFF;
+    margin-top: 10%;
+}
+
+.card2:hover .front {
+    transform: perspective(600px) rotateY(180deg);
+}
+
+.card2:hover .back {
+    transform: perspective(600px) rotateY(360deg);
+}
+
+/* catalogo diferente */
+
+.card3 {
+    position: relative;
+    width: 100%;
+    height: 220px;
+    border-radius: 5px;
+}
+
+.card3 .face2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.card3 .front2 {
+    transform: perspective(600px) rotateY(0deg);
+}
+
+
+.card3 .back2 {
+    transform: perspective(600px) rotateY(180deg);
+    background-color: rgba(241, 90, 36, 0.7);
+    padding: 10%;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    box-shadow: 0 5px 10px #fc6b02;
+}
+
+.card3 .back2 a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.card3:hover .front2 {
+    transform: perspective(600px) rotateY(180deg);
+}
+
+.card3:hover .back2 {
+    transform: perspective(600px) rotateY(360deg);
+}
+
+/* Catalogos */
+/* Mobilliarios, Sillas, Silla Oficina */
+
+.catalogs {
+    width: 35%;
+    height: auto;
+    margin-left: 33%;
+}
+
+.catalogss {
+
+    height: 550px;
+}
+
+/* Cabeceras */
+
+.cabeceras {
+    width: 50%;
+    height: auto;
+    margin-left: 28.25%;
+}
+
+.cabecerass {
+    height: 450px;
+}
+
+/* Hoteles */
+
+.cards3 {
+    position: relative;
+    width: 100%;
+    height: 220px;
+    border-radius: 5px;
+}
+
+.cards3 .face3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: .5s;
+    background-size: cover;
+}
+
+.cards3 .front3 {
+    transform: perspective(600px) rotateY(0deg);
+    background-size: cover;
+}
+
+
+.cards3 .back3 {
+    transform: perspective(600px) rotateY(180deg);
+    background-color: rgba(241, 90, 36, 0.7);
+    padding: 10%;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    box-shadow: 0 5px 10px #fc6b02;
+}
+
+.cards3 .back3 h3 {
+    margin-top: 60%;
+    width: 100%;
+    height: 45px;
+    color: #FFF;
+    background: rgba(0, 0, 0, 0.3);
+    text-align: center;
+    border-radius: 5px;
+}
+
+.cards3 .back3 a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.cards3:hover .front3 {
+    transform: perspective(600px) rotateY(180deg);
+}
+
+.cards3:hover .back3 {
+    transform: perspective(600px) rotateY(360deg);
+}
+
+/* Footer hoteles */
+
+.footers {
+    margin-top: 60%;
+    margin-left: 12%;
+    padding: 1%;
+    width: 76.5%;
+    margin-bottom: 2%;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.footertitle2 {
+    color: #FFF;
+}
+
+.foots2 {
+    color: #ffffff;
+    font-style: normal;
+    text-decoration: none;
+    font-size: small;
+}
+
+.todofoot2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tablas {
+    width: 30%;
+    /* margin-left: -40%; */
+}
+
+.redessociales {
+    width: 30px;
+    height: auto;
+    /* margin-left: -95%; */
+}
+
+.redsocial {
+    color: #f15a24;
+    display: inline-block;
+}
+
+/* Santa Cecilia */
+
+.sc {
+    background-image: url("../img/proyectos/hoteles/santacecilia/port.jpg");
+    background-repeat: no-repeat;
+    width: 76.5%;
+    height: 320px;
+    border-radius: 5px;
+    margin-left: 12%;
+    margin-top: -0.01%;
+}
+
+.sc1 {
+    /* background-color: rgba(255, 255, 255, 0.5); */
+    width: 76.5%;
+    height: 600px;
+    margin-top: -9px;
+    margin-left: 12%;
+    text-align: center;
+    padding: 5%;
+    font-size: 14px;
+}
+
+.sc1 h2 {
+    margin-top: 20%;
+    color: #FFF;
+}
+
+.btnsc {
+    /* margin-top: 20%; */
+    background-color: #f15a24;
+    color: #FFF;
+}
+
+.btnsc:hover {
+    /* margin-top: 20%; */
+    background-color: transparent;
+    border: 2px #f15a24;
+    border-style: solid;
+    color: #000000;
+}
+
+/* galeria de imagenes */
+
+.cardsimgs {
+    position: relative;
+    width: 100%;
+    height: 220px;
+    border-radius: 5px;
+    transition: all 400ms ease;
+}
+
+.cardsimgs .face4 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.cardsimgs:hover {
+    box-shadow: 5px 5px 20px rgba(241, 90, 36, 0.7);
+    transform: translateY(-3%);
+}
+
+/* foter de hotel cecilia */
+
+.footercecilia {
+    margin-top: 35%;
+    margin-left: 12%;
+    padding: 1%;
+    width: 76.5%;
+    margin-bottom: 2%;
+}
+
+/* Hotel palmas */
+
+
+.pal {
+    background-image: url("../img/proyectos/hoteles/palmas/port.jpg");
+    background-repeat: no-repeat;
+    width: 76.5%;
+    height: 320px;
+    border-radius: 5px;
+    margin-left: 12%;
+    margin-top: -0.01%;
+}
+
+.pal1 {
+    /* background-color: rgba(255, 255, 255, 0.5); */
+    width: 76.5%;
+    height: 600px;
+    margin-top: -9px;
+    margin-left: 12%;
+    text-align: center;
+    padding: 5%;
+    font-size: 14px;
+}
+
+.pal1 h2 {
+    margin-top: 20%;
+    color: #f15a24;
+}
+
+.btnpal {
+    /* margin-top: 20%; */
+    background-color: #f15a24;
+    color: #FFF;
+}
+
+.btnpal:hover {
+    /* margin-top: 20%; */
+    background-color: transparent;
+    border: 2px #f15a24;
+    border-style: solid;
+    color: #000000;
+}
+
+/* footerpalmas */
+
+.footerpalmas {
+    margin-top: 18%;
+    margin-left: 12%;
+    padding: 1%;
+    width: 76.5%;
+    margin-bottom: 2%;
+}
+
+/* Hotel serranillo */
+
+.ser {
+    background-image: url("../img/proyectos/hoteles/serranillo/port.jpg");
+    background-repeat: no-repeat;
+    width: 76.5%;
+    height: 320px;
+    border-radius: 5px;
+    margin-left: 12%;
+    margin-top: -0.01%;
+}
+
+.ser1 {
+    /* background-color: rgba(255, 255, 255, 0.5); */
+    width: 76.5%;
+    height: 600px;
+    margin-top: -9px;
+    margin-left: 12%;
+    text-align: center;
+    padding: 5%;
+    font-size: 14px;
+}
+
+.ser1 h2 {
+    margin-top: 20%;
+    color: #FFF;
+}
+
+.btnser {
+    /* margin-top: 20%; */
+    background-color: #f15a24;
+    color: #FFF;
+}
+
+.btnser:hover {
+    /* margin-top: 20%; */
+    background-color: transparent;
+    border: 2px #f15a24;
+    border-style: solid;
+    color: #000000;
+}
+
+/* footerserranillo */
+
+.footerserranillo {
+    margin-top: 2%;
+    margin-left: 12%;
+    padding: 1%;
+    width: 76.5%;
+    margin-bottom: 2%;
+}
+
+/* Hotel azul */
+
+.azul {
+    background-image: url("../img/proyectos/hoteles/azulixtapa/port.jpg");
+    background-repeat: no-repeat;
+    width: 76.5%;
+    height: 320px;
+    border-radius: 5px;
+    margin-left: 12%;
+    margin-top: -0.01%;
+}
+
+.azul1 {
+    /* background-color: rgba(255, 255, 255, 0.5); */
+    width: 76.5%;
+    height: 600px;
+    margin-top: -9px;
+    margin-left: 12%;
+    text-align: center;
+    padding: 5%;
+    font-size: 14px;
+}
+
+.azul1 h2 {
+    margin-top: 20%;
+    color: #FFF;
+}
+
+.btnazul {
+    /* margin-top: 20%; */
+    background-color: #f15a24;
+    color: #FFF;
+}
+
+.btnazul:hover {
+    /* margin-top: 20%; */
+    background-color: transparent;
+    border: 2px #f15a24;
+    border-style: solid;
+    color: #000000;
+}
+
+/* footerazul */
+
+.footerazul {
+    margin-top: 35%;
+    margin-left: 12%;
+    padding: 1%;
+    width: 76.5%;
+    margin-bottom: 2%;
+}
+
+/* Hotel Best Western Pozarica */
+
+.bwp {
+    background-image: url("../img/proyectos/hoteles/bestwesternpozarica/port.jpg");
+    background-repeat: no-repeat;
+    width: 76.5%;
+    height: 320px;
+    border-radius: 5px;
+    margin-left: 12%;
+    margin-top: -0.01%;
+}
+
+/* footerbwp */
+
+.footerbwp {
+    margin-top: 2%;
+    margin-left: 12%;
+    padding: 1%;
+    width: 76.5%;
+    margin-bottom: 2%;
+}
+
+/* Hotel la Mision */
+
+.mision {
+    background-image: url("../img/proyectos/hoteles/lamision/port.jpg");
+    background-repeat: no-repeat;
+    width: 76.5%;
+    height: 320px;
+    border-radius: 5px;
+    margin-left: 12%;
+    margin-top: -0.01%;
+}
+
+/* footerbwp */
+
+.footermision {
+    margin-top: 2%;
+    margin-left: 12%;
+    padding: 1%;
+    width: 76.5%;
+    margin-bottom: 2%;
+}
+
+
+/* Hotel la hs */
+
+.hs {
+    background-image: url("../img/proyectos/hoteles/hs/port.jpg");
+    background-repeat: no-repeat;
+    width: 76.5%;
+    height: 320px;
+    border-radius: 5px;
+    margin-left: 12%;
+    margin-top: -0.01%;
+}
+
+/* footerhs */
+
+.footerhs {
+    margin-top: 18%;
+    margin-left: 12%;
+    padding: 1%;
+    width: 76.5%;
+    margin-bottom: 2%;
+}
+
+/* Hotel la dorado royale */
+
+.dr {
+    background-image: url("../img/proyectos/hoteles/doradoroyale/port.jpg");
+    background-repeat: no-repeat;
+    width: 76.5%;
+    height: 320px;
+    border-radius: 5px;
+    margin-left: 12%;
+    margin-top: -0.01%;
+}
+
+/* footerdr */
+
+.footerdr {
+    margin-top: 2%;
+    margin-left: 12%;
+    padding: 1%;
+    width: 76.5%;
+    margin-bottom: 2%;
+}
+
+/* Hotel miralas */
+
+.miralas {
+    background-image: url("../img/proyectos/hoteles/miralas/port.jpg");
+    background-repeat: no-repeat;
+    width: 76.5%;
+    height: 320px;
+    border-radius: 5px;
+    margin-left: 12%;
+    margin-top: -0.01%;
+}
+
+/* footerdr */
+
+.footermiralas {
+    margin-top: 20%;
+    margin-left: 12%;
+    padding: 1%;
+    width: 76.5%;
+    margin-bottom: 2%;
+}
+
+/* Hotel Basalto */
+
+.Basalto {
+    background-image: url("../img/proyectos/hoteles/basalto/port.jpg");
+    background-repeat: no-repeat;
+    width: 76.5%;
+    height: 320px;
+    border-radius: 5px;
+    margin-left: 12%;
+    margin-top: -0.01%;
+}
+
+/* footerBasalto */
+
+.footermiralas {
+    margin-top: 20%;
+    margin-left: 12%;
+    padding: 1%;
+    width: 76.5%;
+    margin-bottom: 2%;
+}
+
+/* Hotel industrial */
+
+.ind {
+    background-image: url("../img/proyectos/hoteles/industrial/port.jpg");
+    background-repeat: no-repeat;
+    width: 76.5%;
+    height: 320px;
+    border-radius: 5px;
+    margin-left: 12%;
+    margin-top: -0.01%;
+}
+
+/* footerIndustrial */
+
+.footerind {
+    margin-top: -20%;
+    margin-left: 12%;
+    padding: 1%;
+    width: 76.5%;
+    margin-bottom: 2%;
+}
+
+/* Hotel Ok Saltillo */
+
+.oks {
+    background-image: url("../img/proyectos/hoteles/oksaltillo/port.jpg");
+    background-repeat: no-repeat;
+    width: 76.5%;
+    height: 320px;
+    border-radius: 5px;
+    margin-left: 12%;
+    margin-top: -0.01%;
+}
+
+/* footeroks */
+
+.footeroks {
+    margin-top: 2%;
+    margin-left: 12%;
+    padding: 1%;
+    width: 76.5%;
+    margin-bottom: 2%;
+}
+
+/* Hotel best western */
+
+.bw {
+    background-image: url("../img/proyectos/hoteles/bestwestern/port.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 76.5%;
+    height: 320px;
+    border-radius: 5px;
+    margin-left: 12%;
+    margin-top: -0.01%;
+}
+
+/* footerBW */
+
+.footerind {
+    margin-top: -20%;
+    margin-left: 12%;
+    padding: 1%;
+    width: 76.5%;
+    margin-bottom: 2%;
+}
+
+/* Hotel de los baños */
+
+.hb {
+    background-image: url("../img/proyectos/hoteles/hotelbanios/2.jpg");
+    background-repeat: no-repeat;
+    width: 76.5%;
+    height: 320px;
+    border-radius: 5px;
+    margin-left: 12%;
+    margin-top: -0.01%;
+}
+
+/* footerhb */
+
+.footerbwp {
+    margin-top: 2%;
+    margin-left: 12%;
+    padding: 1%;
+    width: 76.5%;
+    margin-bottom: 2%;
+}
+
+
+
+
+
+
+
+/* Hospitales */
+
+/* Footer Hospitales */
+
+.footershosp {
+    margin-top: -40%;
+    margin-left: 12%;
+    padding: 1%;
+    width: 76.5%;
+    margin-bottom: 2%;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.footertitle2 {
+    color: #FFF;
+}
+
+.foots2 {
+    color: #ffffff;
+    font-style: normal;
+    text-decoration: none;
+    font-size: small;
+}
+
+.todofoot2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tablas {
+    width: 30%;
+    /* margin-left: -40%; */
+}
+
+.redessociales {
+    width: 30px;
+    height: auto;
+    /* margin-left: -95%; */
+}
+
+.redsocial {
+    color: #f15a24;
+    display: inline-block;
+}
+
+/* Hospitales end*/
+
+
+/* Oficinas */
+
+/* Footer Oficinas */
+
+.footersOfi {
+    /* margin-top: 10%; */
+    margin-left: 12%;
+    padding: 1%;
+    width: 76.5%;
+    margin-bottom: 2%;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.footertitle2 {
+    color: #FFF;
+}
+
+.foots2 {
+    color: #ffffff;
+    font-style: normal;
+    text-decoration: none;
+    font-size: small;
+}
+
+.todofoot2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tablas {
+    width: 30%;
+    /* margin-left: -40%; */
+}
+
+.redessociales {
+    width: 30px;
+    height: auto;
+    /* margin-left: -95%; */
+}
+
+.redsocial {
+    color: #f15a24;
+    display: inline-block;
+}
+
+
+/* Oficinas end*/
+
+
+/* Restaurante */
+
+.bocha {
+    background-image: url("../img/proyectos/restaurantes/labocha/1.jpg");
+    background-repeat: no-repeat;
+    width: 76.5%;
+    height: 320px;
+    border-radius: 5px;
+    margin-left: 12%;
+    margin-top: -0.01%;
+}
+
+
+.tn{
+    background-image: url("../img/proyectos/restaurantes/tierranorte/1.jpg");
+    background-repeat: no-repeat;
+    width: 76.5%;
+    height: 320px;
+    border-radius: 5px;
+    margin-left: 12%;
+    margin-top: -0.01%;
+}
+
+
+.suk{
+    background-image: url("../img/proyectos/restaurantes/sukoi/4.jpg");
+    background-repeat: no-repeat;
+    width: 76.5%;
+    height: 320px;
+    border-radius: 5px;
+    margin-left: 12%;
+    margin-top: -0.01%;
+}
+
+.cel{
+    background-image: url("../img/proyectos/restaurantes/casainn/1.jpg");
+    background-repeat: no-repeat;
+    width: 76.5%;
+    height: 320px;
+    border-radius: 5px;
+    margin-left: 12%;
+    margin-top: -0.01%;
+}
+
+.soc{
+    background-image: url("../img/proyectos/restaurantes/socavon/1.jpg");
+    background-repeat: no-repeat;
+    width: 76.5%;
+    height: 320px;
+    border-radius: 5px;
+    margin-left: 12%;
+    margin-top: -0.01%;
+}
+
+.qub{
+    background-image: url("../img/proyectos/restaurantes/qubika/1.jpg");
+    background-repeat: no-repeat;
+    width: 76.5%;
+    height: 320px;
+    border-radius: 5px;
+    margin-left: 12%;
+    margin-top: -0.01%;
+}
+
+.arc{
+    background-image: url("../img/proyectos/restaurantes/elarca/8.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 76.5%;
+    height: 320px;
+    border-radius: 5px;
+    margin-left: 12%;
+    margin-top: -0.01%;
+}
+
+.SnL{
+    background-image: url("../img/proyectos/restaurantes/sanlucar/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 76.5%;
+    height: 320px;
+    border-radius: 5px;
+    margin-left: 12%;
+    margin-top: -0.01%;
+}
+
+.mol{
+    background-image: url("../img/proyectos/restaurantes/elmolino/3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 76.5%;
+    height: 320px;
+    border-radius: 5px;
+    margin-left: 12%;
+    margin-top: -0.01%;
+}
+
+.footersqub {
+    margin-top: 15%;
+    margin-left: 12%;
+    padding: 1%;
+    width: 76.5%;
+    margin-bottom: 2%;
+}
+
+.footerssnL {
+    margin-top: -2%;
+    margin-left: 12%;
+    padding: 1%;
+    width: 76.5%;
+    margin-bottom: 2%;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.footertitle2 {
+    color: #FFF;
+}
+
+.foots2 {
+    color: #ffffff;
+    font-style: normal;
+    text-decoration: none;
+    font-size: small;
+}
+
+.todofoot2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tablas {
+    width: 30%;
+    /* margin-left: -40%; */
+}
+
+.redessociales {
+    width: 30px;
+    height: auto;
+    /* margin-left: -95%; */
+}
+
+.redsocial {
+    color: #f15a24;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+/* Restaurante end */
