@@ -79,7 +79,7 @@
 }
 
 .ne {
-    font-weight: bold;
+    /* font-weight: bold; */
     font-size: 16px;
     text-align: justify;
 }
@@ -349,10 +349,10 @@ th {
 
 .d1 {
     background-color: rgba(255, 255, 255, 0.5);
-    width: 76.5%;
+    width: 40%;
     height: 600px;
     margin-top: -9px;
-    margin-left: 12%;
+    margin-left: 50%;
     text-align: justify;
     padding: 5%;
     font-size: 14px;
@@ -1113,7 +1113,7 @@ th {
 
 .pal1 h2 {
     margin-top: 20%;
-    color: #f15a24;
+    color: #FFF;
 }
 
 .btnpal {
@@ -1688,6 +1688,72 @@ th {
     margin-top: -0.01%;
 }
 
+.hay{
+    background-image: url("../img/proyectos/restaurantes/hayes/7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 76.5%;
+    height: 320px;
+    border-radius: 5px;
+    margin-left: 12%;
+    margin-top: -0.01%;
+}
+
+.ven{
+    background-image: url("../img/proyectos/restaurantes/elvendaval/6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 76.5%;
+    height: 320px;
+    border-radius: 5px;
+    margin-left: 12%;
+    margin-top: -0.01%;
+}
+
+.mil{
+    background-image: url("../img/proyectos/restaurantes/elmilagro/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 76.5%;
+    height: 320px;
+    border-radius: 5px;
+    margin-left: 12%;
+    margin-top: -0.01%;
+}
+
+.ham{
+    background-image: url("../img/proyectos/restaurantes/lahambrocha/6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 76.5%;
+    height: 320px;
+    border-radius: 5px;
+    margin-left: 12%;
+    margin-top: -0.01%;
+}
+
+.dol{
+    background-image: url("../img/proyectos/restaurantes/dolina/3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 76.5%;
+    height: 320px;
+    border-radius: 5px;
+    margin-left: 12%;
+    margin-top: -0.01%;
+}
+
+.tacM{
+    background-image: url("../img/proyectos/restaurantes/tacomeat/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 76.5%;
+    height: 320px;
+    border-radius: 5px;
+    margin-left: 12%;
+    margin-top: -0.01%;
+}
+
 .footersqub {
     margin-top: 15%;
     margin-left: 12%;
@@ -1748,10 +1814,330 @@ th {
     display: inline-block;
 }
 
-
-
-
-
-
-
 /* Restaurante end */
+
+/* Hospitales */
+
+.zac{
+    background-image: url("../img/proyectos/hospitales/zacatecas/5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 76.5%;
+    height: 320px;
+    border-radius: 5px;
+    margin-left: 12%;
+    margin-top: -0.01%;
+}
+
+.sal{
+    background-image: url("../img/proyectos/hospitales/salvatierra/2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 76.5%;
+    height: 320px;
+    border-radius: 5px;
+    margin-left: 12%;
+    margin-top: -0.01%;
+}
+
+.emZ{
+    background-image: url("../img/proyectos/hospitales/emilinozapata/8.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 76.5%;
+    height: 320px;
+    border-radius: 5px;
+    margin-left: 12%;
+    margin-top: -0.01%;
+}
+
+/* Hospitales end*/
+
+/* Oficinas */
+
+.cong{
+    background-image: url("../img/proyectos/oficinas/congresounionhidalgo/4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 76.5%;
+    height: 320px;
+    border-radius: 5px;
+    margin-left: 12%;
+    margin-top: -0.01%;
+}
+
+.gra{
+    background-image: url("../img/proyectos/oficinas/consultoriograber/2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 76.5%;
+    height: 320px;
+    border-radius: 5px;
+    margin-left: 12%;
+    margin-top: -0.01%;
+}
+
+.cred{
+    background-image: url("../img/proyectos/oficinas/credencializacionUAEH/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 76.5%;
+    height: 320px;
+    border-radius: 5px;
+    margin-left: 12%;
+    margin-top: -0.01%;
+}
+
+.not{
+    background-image: url("../img/proyectos/oficinas/notaria2/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 76.5%;
+    height: 320px;
+    border-radius: 5px;
+    margin-left: 12%;
+    margin-top: -0.01%;
+}
+
+.cen{
+    background-image: url("../img/proyectos/oficinas/centronegociosUAEH/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 76.5%;
+    height: 320px;
+    border-radius: 5px;
+    margin-left: 12%;
+    margin-top: -0.01%;
+}
+
+.socav{
+    background-image: url("../img/proyectos/oficinas/socavon/5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 76.5%;
+    height: 320px;
+    border-radius: 5px;
+    margin-left: 12%;
+    margin-top: -0.01%;
+}
+
+.tras{
+    background-image: url("../img/proyectos/oficinas/transberra/6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 76.5%;
+    height: 320px;
+    border-radius: 5px;
+    margin-left: 12%;
+    margin-top: -0.01%;
+}
+
+.oly{
+    background-image: url("../img/proyectos/oficinas/olympia/6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 76.5%;
+    height: 320px;
+    border-radius: 5px;
+    margin-left: 12%;
+    margin-top: -0.01%;
+}
+
+
+.cards5 {
+    position: relative;
+    width: 100%;
+    height: 220px;
+    border-radius: 5px;
+}
+
+.cards5 .face5 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: .5s;
+    background-size: cover;
+}
+
+.cards5 .front5 {
+    transform: perspective(600px) rotateY(0deg);
+    background-size: cover;
+}
+
+
+.cards5 .back5 {
+    transform: perspective(600px) rotateY(180deg);
+    background-color: rgba(241, 90, 36, 0.7);
+    padding: 10%;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    box-shadow: 0 5px 10px #fc6b02;
+}
+
+.cards5 .back5 h3 {
+    margin-top: 50%;
+    width: 100%;
+    height: 45px;
+    color: #FFF;
+    background: rgba(0, 0, 0, 0.3);
+    text-align: center;
+    border-radius: 5px;
+}
+
+.cards5 .back5 h3 {
+    margin-top: 50%;
+    width: 100%;
+    height: 45px;
+    color: #FFF;
+    background: rgba(0, 0, 0, 0.3);
+    text-align: center;
+    border-radius: 5px;
+}
+
+.cards5 .back5 a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.cards5:hover .front5 {
+    transform: perspective(600px) rotateY(180deg);
+}
+
+.cards5:hover .back5 {
+    transform: perspective(600px) rotateY(360deg);
+}
+
+.cards5 .back51 {
+    transform: perspective(600px) rotateY(180deg);
+    background-color: rgba(241, 90, 36, 0.7);
+    padding: 10%;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    box-shadow: 0 5px 10px #fc6b02;
+}
+
+.cards5 .back51 h3 {
+    margin-top: 50%;
+    width: 100%;
+    height: 65px;
+    color: #FFF;
+    background: rgba(0, 0, 0, 0.3);
+    text-align: center;
+    border-radius: 5px;
+}
+
+.cards5 .back51 h3 {
+    margin-top: 50%;
+    width: 100%;
+    height: 65px;
+    color: #FFF;
+    background: rgba(0, 0, 0, 0.3);
+    text-align: center;
+    border-radius: 5px;
+}
+
+.cards5 .back51 a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.cards5:hover .back51 {
+    transform: perspective(600px) rotateY(360deg);
+}
+
+/* Footer congreso */
+.footercong {
+    margin-top: 35%;
+    margin-left: 12%;
+    padding: 1%;
+    width: 76.5%;
+    margin-bottom: 2%;
+}
+
+/* Footer olympia */
+.footeroly {
+    margin-top: -20%;
+    margin-left: 12%;
+    padding: 1%;
+    width: 76.5%;
+    margin-bottom: 2%;
+}
+
+/* Oficinas end*/
+
+/* Especiales */
+
+.bCon{
+    background-image: url("../img/proyectos/especiales/bancasconvento/port.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 76.5%;
+    height: 320px;
+    border-radius: 5px;
+    margin-left: 12%;
+    margin-top: -0.01%;
+}
+
+.crio{
+    background-image: url("../img/proyectos/especiales/casario/3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 76.5%;
+    height: 320px;
+    border-radius: 5px;
+    margin-left: 12%;
+    margin-top: -0.01%;
+}
+
+.caclu{
+    background-image: url("../img/proyectos/especiales/casaclubgolf/3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 76.5%;
+    height: 320px;
+    border-radius: 5px;
+    margin-left: 12%;
+    margin-top: -0.01%;
+}
+
+.nicke{
+    background-image: url("../img/proyectos/especiales/nickelodeon/2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 76.5%;
+    height: 320px;
+    border-radius: 5px;
+    margin-left: 12%;
+    margin-top: -0.01%;
+}
+
+.tec{
+    background-image: url("../img/proyectos/especiales/techos/2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 76.5%;
+    height: 320px;
+    border-radius: 5px;
+    margin-left: 12%;
+    margin-top: -0.01%;
+}
+
+/* Footer nickelodeon */
+.footernicke {
+    margin-top: 75%;
+    margin-left: 12%;
+    padding: 1%;
+    width: 76.5%;
+    margin-bottom: 2%;
+}
+
+
+
+/* Especiales end */
